@@ -4,6 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table,th,tr {
+            border:3px solid black;
+        }
+        thead{
+            color:palevioletred;
+        }
+    </style>
+    <style>
+        div{
+            width :200px;
+            margin:auto;
+            color:brown;
+
+        }
+    </style>
 </head>
 <body>
     <title>Job Application Form</title>
@@ -42,7 +58,7 @@
     
      <label for="Experienced">Experienced</label> <br />
      
-     <h3>choose Years of Experience</h3>
+     <h3>Choose Years of Experience</h3>
      <input type="radio" id="< 6months" name="exp" value="< 6months">
     <label for="< 6months">< 6months</label><br />
     <input type="radio" id="1 year" name="exp" value="1 year">
@@ -51,17 +67,47 @@
     <label for="2 years">2 years</label><br />
     <input type="radio" id=">3 years" name="exp" value= ">3 years">
     <label for=">3 years">>3 years</label><br />
+    <h2>Creating a Table</h2>
+   
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>College</th>
+                <th>course</th>
+            </tr>
 
+        </thead>
+        <tr>
+            <th>Arshita</th>
+            <th>NAlla Narasimha Reddy</th>
+            <th>CSE</th>
+        </tr>
+        <tr>
 
+        
+        <th>Amrutha</th>
+        <th>Aurora</th>
+        <th>Bcom</th>
+        </tr>
+        <tr>
+            <th>Vinni</th>
+            <th>Malla Reddy</th>
+            <th>ECE</th>
+        </tr>
+         <tr>
 
-
-    
-
-
-
-
-
-    
-
+        
+        <th>Shresta</th>
+        <th>Philomena</th>
+        <th>EEE</th>
+        </tr>
+        <tr>
+    </table>
+    <div>
+        <p>The table that has been created consists of 4 individuals names along withtheir educational instituitions and the course that they studied.</p>
+        <p>Represnting the description of the above table using a div tag</p>
+        <p>ALso highlighting it using CSS borders & width to the text</p>  
+      </div>
 </body>
 </html>
