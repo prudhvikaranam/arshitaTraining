@@ -1,0 +1,96 @@
+<html>
+<title>
+    Amazon
+</title>
+
+<head>
+    <style>
+        .body-container {
+            display:flex;
+            flex-direction: column;
+        }
+
+        .body-container .top-container {
+            display: flex;
+            background-color: aqua;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .body-container .mid-container {
+            display: flex;
+            background-color: beige;
+            flex-direction: row;
+            justify-content: flex-end;
+            gap: 45px;
+        }
+
+        .deals {
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+        }
+
+        .deal-item {
+            flex: 1;
+            background: #e8f0fe;
+            padding: 15px;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        .deal-item h3 {
+            margin-bottom: 10px;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="main-container" id="main-container">
+
+        <div class="body-container" id="body-container">
+
+            <div class="top-container" id="top-container">
+                <div>Test Website</div>
+                <div>Search Amazon </div>
+                <div>Login</div>
+                <div>Register</div>
+            </div>
+
+            <div class="mid-container" id="mid-container">
+                <div>Home</div>
+                <div>Dashboard</div>
+                <div>Products</div>
+                <div>Contact Us</div>
+            </div>
+
+            <div class="deals">
+                <div class="deal-item">
+                    <h3>Appliances for your home</h3>
+                    <p>Up to 55% off</p>
+                </div>
+                <div class="deal-item">
+                    <h3>Home essentials</h3>
+                    <p>Starting ₹49</p>
+                </div>
+                <div class="deal-item">
+                    <h3>Headphones</h3>
+                    <p>Up to 75% off</p>
+                </div>
+
+                <div class="footer">
+                    <h3> See Personalized Recommendations</h3>
+                    <p>New Customer? Dtart Here </p>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
