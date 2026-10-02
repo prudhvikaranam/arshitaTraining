@@ -9,3 +9,14 @@ Select,
 options,
  <a>
 <nav>
+label
+radio buttons
+
+\GIT 
+git status : to check progress
+git add . : to add all changed files
+git commit -m 'message' : to add the  changes to staging phase
+git push origin : to push changes to github ie., internet
+
+10209254663105001 - PF tracking ID
+

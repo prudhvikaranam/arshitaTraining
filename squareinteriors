@@ -1,0 +1,23 @@
+<html>
+<head>
+    <style>
+        .container {
+            display: flex;
+            background-color: orangered;
+        }
+
+        .container div {
+            background-color: khaki;
+        }
+
+        
+
+        </style>
+        <body>
+            <div><a href="#">Home</a> </div>
+            <div><a href="#">Services</a></div>
+            <div><a href="#">Products</a></div>
+            <div><a href="#">Contact</a></div>
+        </body>
+    </head>
+</html>
